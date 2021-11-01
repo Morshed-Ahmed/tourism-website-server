@@ -128,6 +128,10 @@ app.get('/', (req, res) => {
     res.send('Hello world');
 });
 
+app.get('/hello', (req, res) => {
+    res.send('hello bangladesh')
+})
+
 app.listen(port, () => {
     console.log('start server', port)
 })
